@@ -1,16 +1,19 @@
 <template>
   <div class="container-fluid">
     <NavBar></NavBar>
+    <SectionHome></SectionHome>
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
+import SectionHome from './components/SectionHome.vue'
 
 export default {
   name: 'App',
   components: {
-    NavBar
+    NavBar,
+    SectionHome
   }
 }
 </script>
@@ -29,5 +32,6 @@ export default {
 
 .container-fluid{
     background-color: var(--Color-1);
+    padding: 0px;
 }
 </style>
