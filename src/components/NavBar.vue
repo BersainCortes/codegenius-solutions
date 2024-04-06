@@ -12,6 +12,9 @@
             <a class="nav-link" href="#servicios">Servicios</a>
         </li>
         <li class="nav-item">
+            <a class="nav-link" href="#servicios">Tecnologías</a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link" href="#">Contacto</a>
         </li>
         <li class="nav-item">
