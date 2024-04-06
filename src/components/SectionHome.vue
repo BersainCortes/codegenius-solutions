@@ -1,5 +1,5 @@
 <template>
-    <div class="section-home">
+    <div class="section-home" id="home">
         <svg xmlns="http://www.w3.org/2000/svg" class="top-wave" viewBox="0 0 1440 320"><path fill="#03624c" fill-opacity="1" d="M0,64L80,64C160,64,320,64,480,74.7C640,85,800,107,960,112C1120,117,1280,107,1360,101.3L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
 
         <div class="img">
@@ -31,7 +31,7 @@
                 </div>
         </div>
 
-        <svg xmlns="http://www.w3.org/2000/svg" class="bottom-wave" viewBox="0 0 1440 320"><path fill="#03624c" fill-opacity="1" d="M0,128L120,154.7C240,181,480,235,720,250.7C960,267,1200,245,1320,234.7L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="bottom-wave" viewBox="0 0 1440 320"><path fill="#03624c" fill-opacity="1" d="M0,128L120,149.3C240,171,480,213,720,229.3C960,245,1200,235,1320,229.3L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
     </div>
 </template>
 

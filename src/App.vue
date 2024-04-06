@@ -2,18 +2,21 @@
   <div class="container-fluid">
     <NavBar></NavBar>
     <SectionHome></SectionHome>
+    <SectionServicios></SectionServicios>
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
 import SectionHome from './components/SectionHome.vue'
+import SectionServicios from './components/SectionServicios.vue'
 
 export default {
   name: 'App',
   components: {
     NavBar,
-    SectionHome
+    SectionHome,
+    SectionServicios
   }
 }
 </script>

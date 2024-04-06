@@ -6,10 +6,10 @@
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Inicios</a>
+            <a class="nav-link" href="#home">Inicio</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Servicios</a>
+            <a class="nav-link" href="#servicios">Servicios</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">Contacto</a>
