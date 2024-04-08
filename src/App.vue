@@ -36,5 +36,6 @@ export default {
 .container-fluid{
     background-color: var(--Color-1);
     padding: 0px;
+    width: 100%;
 }
 </style>
