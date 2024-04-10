@@ -3,6 +3,7 @@
     <NavBar></NavBar>
     <SectionHome></SectionHome>
     <SectionServicios></SectionServicios>
+    <SectionTecnologias></SectionTecnologias>
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import NavBar from './components/NavBar.vue'
 import SectionHome from './components/SectionHome.vue'
 import SectionServicios from './components/SectionServicios.vue'
+import SectionTecnologias from './components/SectionTecnologias.vue';
 
 export default {
   name: 'App',
   components: {
     NavBar,
     SectionHome,
-    SectionServicios
+    SectionServicios,
+    SectionTecnologias
   }
 }
 </script>

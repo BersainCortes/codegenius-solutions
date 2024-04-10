@@ -1,0 +1,265 @@
+:root{
+    --Color-1: #f7f7f7;
+    --Color-1-2: rgba(247,247,247,0.3);
+    --Color-2: #2cc295;
+    --Color-3: #03624c;
+    --Color-4: #00df82;
+    --Color-5: #042222;
+    --Color-6: #021a1a;
+}
+
+@media screen and (min-width: 300px)  and (max-width: 800px){
+    .section-tecnologias{
+        background-color: var(--Color-1);
+        height: fit-content;
+        width: 100%;
+    }
+
+    .content-top .left{
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content-top .left h2{
+        font-size: 25pt;
+        color: var(--Color-5);
+        font-weight: bold;
+    }
+
+    .content-top .right{
+        margin-top: 5vh;
+    }
+
+    .content-top .right .card-group{
+        width: 90%;
+        margin: auto;
+    }
+
+    .content-top .right .card-group .card{
+        text-align: center;
+        background-color: var(--Color-1);
+        border: none;
+        box-shadow: 0px 0px 10px gray;
+        width: 80%;
+        border-radius: 15px;
+        margin-bottom: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-group .card .icon-holder{
+        background-color: var(--Color-5);
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        border-radius: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-group .card .icon-holder i{
+        margin: auto;
+        color: var(--Color-1);
+        font-size: 15pt;
+    }
+
+    .card-group .card .card-title{
+        color: var(--Color-5);
+        font-size: 15pt;
+        font-weight: bold;
+    }
+
+    .content-middle{
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10vh;
+    }
+
+    .content-middle h2{
+        color: var(--Color-5);
+        font-weight: bold;
+        margin-bottom: 10vh;
+    }
+
+    .content-middle h5{
+        font-weight: normal;
+        color: var(--Color-5);
+        margin-bottom: 10vh;
+    }
+
+    .content-middle .skills{
+        margin-bottom: 10vh;
+        text-align: center;
+
+    }
+
+    .content-middle .skills .language{
+        margin: auto;
+        margin-bottom: 2vh;
+    }
+
+    .content-middle .skills .language i{
+        font-size: 50pt;
+    }
+
+    .content-bottom{
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content-bottom h2{
+        font-size: 25pt;
+        font-weight: bold;
+        color: var(--Color-5);
+    }
+
+    .content-bottom h5{
+        font-weight: normal;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 2048px) {
+    .section-tecnologias{
+        background-color: var(--Color-1);
+        height: fit-content;
+        width: 100%;
+    }
+
+    .content-top{
+        display: flex;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content-top .left{
+        align-self: center;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        height: fit-content
+    }
+
+    .content-top .left h2{
+        font-size: 40pt;
+        color: var(--Color-5);
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .content-top .right{
+        height: fit-content;
+        width: 50%;
+    }
+
+    .content-top .right .card-group{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5vh;
+        height: fit-content;
+    }
+
+    .content-top .right .card-group .card{
+        text-align: center;
+        background-color: var(--Color-1);
+        border: none;
+        box-shadow: 0px 0px 10px gray;
+        width: 80%;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content-top .right .card-group .c2, .content-top .right .card-group .c4{
+        position: relative;
+        bottom: 10vh;
+    }
+
+    .card-group .card .icon-holder{
+        background-color: var(--Color-5);
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        border-radius: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-group .card .icon-holder i{
+        margin: auto;
+        color: var(--Color-1);
+        font-size: 15pt;
+    }
+
+    .card-group .card .card-title{
+        color: var(--Color-5);
+        font-size: 15pt;
+        font-weight: bold;
+    }
+
+    .content-middle{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10vh;
+    }
+
+    .section-tecnologias .content-middle h2{
+        color: var(--Color-5);
+        font-weight: bold;
+        margin-bottom: 10vh;
+    }
+
+    .section-tecnologias .content-middle h5{
+        font-weight: normal;
+        color: var(--Color-5);
+        margin-bottom: 10vh;
+    }
+
+    .section-tecnologias .content-middle .skills{
+        margin-bottom: 10vh;
+        text-align: center;
+        display: flex;
+    }
+
+    .section-tecnologias .content-middle .skills .language{
+        margin-bottom: 2vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-tecnologias .content-middle .skills .language i{
+        font-size: 50pt;
+        color: var(--Color-5);
+    }
+
+    .section-tecnologias .content-bottom{
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-tecnologias .content-bottom h2{
+        font-size: 25pt;
+        font-weight: bold;
+        color: var(--Color-5);
+    }
+
+    .section-tecnologias .content-bottom h5{
+        font-weight: normal;
+    }   
+}

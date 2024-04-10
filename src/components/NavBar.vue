@@ -1,7 +1,7 @@
 <template>
     <ul class="nav justify-content-start">
         <li class="nav-item branch">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="#home">
                 <i class="fa-brands fa-opera"></i> CodeGenius Solutions
             </a>
         </li>
@@ -12,7 +12,7 @@
             <a class="nav-link" href="#servicios">Servicios</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#servicios">Tecnologías</a>
+            <a class="nav-link" href="#tecnologias">Tecnologías</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">Contacto</a>

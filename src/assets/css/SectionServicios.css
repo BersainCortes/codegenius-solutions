@@ -27,27 +27,27 @@
         z-index: 1;
     }
     
-    .content-middle .text{
+    .section-servicios .content-middle .text{
         height: fit-content;
         width: 90%;
         margin: auto;
         color: var(--Color-4);
     }
     
-    .content-middle .text h2{
+    .section-servicios .content-middle .text h2{
         font-weight: bold;
         text-align: center;
         font-size: 25pt;
         margin-bottom: 5vh;
     }
     
-    .content-middle .text h5{
+    .section-servicios .content-middle .text h5{
         font-weight: normal;
         line-height: 22pt;
         text-align: center;
     }
     
-    .content-middle .img{
+    .section-servicios .content-middle .img{
         background-color: var(--Color-3);
         height: 250px;
         width: 250px;
@@ -68,33 +68,35 @@
         z-index: 0;
     }
     
-    .content-middle{
+    .section-servicios .content-middle{
         display: flex;
         align-items: center;
         position: relative;
+        flex-direction: row;
         z-index: 1;
     }
     
-    .content-middle .text{
+    .section-servicios .content-middle .text{
         height: fit-content;
         width: 40%;
         margin: auto;
         color: var(--Color-4);
     }
     
-    .content-middle .text h2{
+    .section-servicios .content-middle .text h2{
         font-weight: bold;
         text-align: left;
         font-size: 40pt;
         margin-bottom: 5vh;
     }
     
-    .content-middle .text h5{
+    .section-servicios .content-middle .text h5{
         font-weight: normal;
         line-height: 22pt;
+        text-align: left;
     }
     
-    .content-middle .img{
+    .section-servicios .content-middle .img{
         background-color: var(--Color-3);
         height: 300px;
         width: 300px;
